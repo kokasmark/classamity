@@ -14,6 +14,7 @@ function App() {
   const [selectedClass,setSelectedClass] = useState(0);
 
   useEffect(()=>async()=>{
+    console.log(`Loaded ${Object.keys(data).length-1} stages`)
     setStages(data);
   },[])
   const createLinearGradient = (color) => {

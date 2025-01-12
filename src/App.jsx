@@ -14,8 +14,8 @@ function App() {
   const [selectedClass,setSelectedClass] = useState(0);
 
   useEffect(()=>async()=>{
-    console.log(`Loaded ${Object.keys(data).length-1} stages`)
     setStages(data);
+    console.log(`Classamity - Loaded ${Object.keys(data).length-1} stages`)
   },[])
   const createLinearGradient = (color) => {
     const match = color.match(/\d+/g);

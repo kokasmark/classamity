@@ -7,7 +7,7 @@
 body{
   font-family: "terraria",sans-serif;
   overflow: hidden;
-  cursor: url(cursor.png), auto;
+  cursor: url(classamity/cursor.png), auto;
 }
 .app{
   width: 100vw;
@@ -137,9 +137,8 @@ body{
   align-items: center;
   justify-content: center;
   transform: scale(0);
-  animation: item-load 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  animation: item-load 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.5) forwards;
 }
-
 .img-container {
   position: relative;
   width: 300px; /* Set a fixed size for the container */
@@ -176,7 +175,7 @@ img{
 }
 
 a{
-  cursor: url(cursor.png),auto;
+  cursor: url(classamity/cursor.png), auto;
 }
 
 input[type="range"] {

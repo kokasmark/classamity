@@ -39,7 +39,7 @@ const ImageCarousel = ({images, imgClassName="pixel-perfect-4x", overrideStyle, 
           <a>
             <img
               className={imgClassName}
-              src={`./${noItem}`}
+              src={`/classamity/${noItem}`}
             />
           </a>
         </div>

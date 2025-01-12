@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "terraria";
+  src: url("/font/andy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: "terraria",sans-serif;
+  overflow: hidden;
+  cursor: url(cursor.png), auto;
+}
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: background 1s ease-in-out;
+}
+.stage-select{
+  margin: 80px 0px;
+  width: 80%;
+}
+.stage-title{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.stages-preview{
+  position: absolute;
+  top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stage{
+  width: 100%;
+}
+.current-stage{
+  width: 100%;
+}
+.class-select{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+.btn{
+  border-radius: 10px;
+  padding: 10px;
+  font-size: max(1vw, 0.75em);
+  transition: 0.3s;
+  border: 2px solid;
+}
+.selected-btn{
+  transform: scale(1.1);
+}
+
+.current-stage{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.build{
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.grid-container {
+  display: grid;
+  width: max-content;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-rows: repeat(3, 1fr); /* Three equal rows */
+  gap: 10px; /* Spacing between grid items */
+  height: 50%; /* Full container height */
+}
+
+.first-child {
+  grid-column: 1; /* Full first column */
+  grid-row: 1 / span 3; /* Spans all 3 rows */
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.second-child {
+  grid-column: 2; /* Second column */
+  grid-row: 1; /* First row */
+}
+
+.third-child {
+  grid-column: 2; /* Second column */
+  grid-row: 2; /* Second row */
+}
+
+.fourth-child {
+  grid-column: 2; /* Second column */
+  grid-row: 3; /* Third row */
+}
+.build .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: baseline;
+  border: 2px solid white;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+
+  width: 50%;
+}
+.build .container::before{
+  content: attr(data-title);
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  padding: 3px 10px;
+  background: inherit;
+}
+.container .item{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  animation: item-load 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.img-container {
+  position: relative;
+  width: 300px; /* Set a fixed size for the container */
+  height: 300px;
+  overflow: hidden;
+}
+
+.img-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Smooth fade effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-item.visible {
+  opacity: 1; /* Make the current image visible */
+  z-index: 1; /* Ensure the current image is on top */
+}
+
+.img-item.hidden {
+  opacity: 0; /* Hide non-current images */
+  z-index: 0;
+}
+
+img{
+  max-width: 40px;
+  filter: drop-shadow(-5px 0px 0px #161616);
+}
+
+a{
+  cursor: url(cursor.png),auto;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  background-color: transparent;
+
+  &:focus {
+    outline-color: #f8b195;
+  }
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: rgb(246, 114, 128);
+  background: -webkit-linear-gradient(
+    left,
+    rgba(246, 114, 128, 1) 0%,
+    rgba(192, 108, 132, 1) 50%,
+    rgba(53, 92, 125, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(246, 114, 128, 1) 0%,
+    rgba(192, 108, 132, 1) 50%,
+    rgba(53, 92, 125, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr="#f67280",
+    endColorstr="#355c7d",
+    GradientType=1
+  );
+}
+
+input[type="range"]::-moz-range-track {
+  -moz-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: rgb(246, 114, 128);
+  background: -moz-linear-gradient(
+    left,
+    rgba(246, 114, 128, 1) 0%,
+    rgba(192, 108, 132, 1) 50%,
+    rgba(53, 92, 125, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(246, 114, 128, 1) 0%,
+    rgba(192, 108, 132, 1) 50%,
+    rgba(53, 92, 125, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr="#f67280",
+    endColorstr="#355c7d",
+    GradientType=1
+  );
+}
+
+input[type="range"]::-ms-track {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: rgb(246, 114, 128);
+  background: -moz-linear-gradient(
+    left,
+    rgba(246, 114, 128, 1) 0%,
+    rgba(192, 108, 132, 1) 50%,
+    rgba(53, 92, 125, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(246, 114, 128, 1) 0%,
+    rgba(192, 108, 132, 1) 50%,
+    rgba(53, 92, 125, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(246, 114, 128, 1) 0%,
+    rgba(192, 108, 132, 1) 50%,
+    rgba(53, 92, 125, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr="#f67280",
+    endColorstr="#355c7d",
+    GradientType=1
+  );
+}
+
+input[type="range"]::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+border: 2px solid #f8b195;
+border-radius: 50%;
+height: 20px;
+width: 20px;
+position: relative;
+bottom: 8px;
+background: #222
+  url("http://codemenatalie.com/wp-content/uploads/2019/09/slider-thumb.png")
+  center no-repeat;
+background-size: 50%;
+box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+cursor: grab;
+  
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+
+input[type="range"]::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #f8b195;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 8px;
+  background: #222
+    url("http://codemenatalie.com/wp-content/uploads/2019/09/slider-thumb.png")
+    center no-repeat;
+  background-size: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  cursor: grab;
+  
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+input[type="range"]::-ms-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #f8b195;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 8px;
+  background: #222
+    url("http://codemenatalie.com/wp-content/uploads/2019/09/slider-thumb.png")
+    center no-repeat;
+  background-size: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  cursor: grab;
+  
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.pixel-perfect-4x {
+  image-rendering: pixelated;
+  scale: 6;
+}
+
+.pixel-perfect-2x {
+  image-rendering: pixelated;
+  scale: 2;
+}
+@keyframes item-load {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

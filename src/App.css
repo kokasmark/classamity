@@ -7,7 +7,6 @@
 body{
   font-family: "terraria",sans-serif;
   overflow: hidden;
-  cursor: url(classamity/cursor.png), auto;
 }
 .app{
   width: 100vw;
@@ -56,6 +55,7 @@ body{
   font-size: max(1vw, 0.75em);
   transition: 0.3s;
   border: 2px solid;
+  cursor: pointer;
 }
 .selected-btn{
   transform: scale(1.1);
@@ -126,6 +126,7 @@ body{
   position: absolute;
   top: -15px;
   left: 20px;
+  font-size: 15px;
   padding: 3px 10px;
   background: inherit;
 }
@@ -174,8 +175,9 @@ img{
   filter: drop-shadow(-5px 0px 0px #161616);
 }
 
+
 a{
-  cursor: url(classamity/cursor.png), auto;
+  cursor: pointer;
 }
 
 input[type="range"] {

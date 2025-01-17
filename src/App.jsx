@@ -6,17 +6,17 @@ import data from './data.json';
 import ImageCarousel from './ImageCarousel';
 
 
-
-
 function App() {
+  console.log("App component rendering...");
   const [stages, setStages] = useState(null);
   const [selectedStage,setSelectedStage] = useState(0);
   const [selectedClass,setSelectedClass] = useState(0);
 
-  useEffect(()=>async()=>{
+  useEffect(() => {
     setStages(data);
-    console.log(`Classamity - Loaded ${Object.keys(data).length-1} stages`)
-  },[])
+    console.log(`Classamity - Loaded ${Object.keys(data).length - 1} stages`);
+  }, []);
+  
   const createLinearGradient = (color) => {
     const match = color.match(/\d+/g);
     if (!match) return color;

@@ -18,7 +18,7 @@ body{
   transition: background 1s ease-in-out;
 }
 .stage-select{
-  margin: 80px 0px;
+  margin-top: 80px;
   width: 80%;
 }
 .stage-title{
@@ -41,6 +41,12 @@ body{
 }
 .current-stage{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .class-select{
   width: 100%;
@@ -61,51 +67,48 @@ body{
   transform: scale(1.1);
 }
 
-.current-stage{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .build{
   margin-top: 50px;
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 80%;
 }
 .grid-container {
   display: grid;
-  width: max-content;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
-  grid-template-rows: repeat(3, 1fr); /* Three equal rows */
-  gap: 10px; /* Spacing between grid items */
-  height: 50%; /* Full container height */
+  grid-template-rows: repeat(3, min-content); 
+  grid-auto-flow: row column;
+  grid-auto-flow: row;
+  gap: 20px;
+  width: min(100%,800px);
+  height: fit-content;
+
+  transition: grid 0.5s;
 }
-
 .first-child {
-  grid-column: 1; /* Full first column */
-  grid-row: 1 / span 3; /* Spans all 3 rows */
-
-  display: flex;
-  justify-content: end;
-  align-items: center;
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  justify-self: end !important;
+  align-self: center;
 }
 
 .second-child {
-  grid-column: 2; /* Second column */
-  grid-row: 1; /* First row */
+  grid-column: 2;
+  grid-row: 1;
+
 }
 
 .third-child {
-  grid-column: 2; /* Second column */
-  grid-row: 2; /* Second row */
+  grid-column: 2;
+  grid-row: 2;
+
 }
 
 .fourth-child {
-  grid-column: 2; /* Second column */
-  grid-row: 3; /* Third row */
+  grid-column: 2;
+  grid-row: 3;
+
 }
 .build .container{
   display: flex;
@@ -115,20 +118,22 @@ body{
   justify-content: baseline;
   border: 2px solid white;
   transition: 0.5s;
-  margin-bottom: 20px;
+
   border-radius: 10px;
   position: relative;
-
-  width: 50%;
+  height: fit-content;
+  margin: 10px;
+  padding: 3px;
 }
 .build .container::before{
   content: attr(data-title);
   position: absolute;
   top: -15px;
   left: 20px;
-  font-size: 15px;
+  font-size: min(3vw,15px);
   padding: 3px 10px;
   background: inherit;
+  border-radius: 10px;
 }
 .container .item{
   display: flex;
@@ -139,6 +144,35 @@ body{
   justify-content: center;
   transform: scale(0);
   animation: item-load 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.5) forwards;
+}
+.container .item .attributes{
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: fit-content;
+  height:fit-content;
+
+  transition: 0.3s;
+  pointer-events: none;
+  max-width: 0px;
+  height: 0px;
+  backdrop-filter: blur(4px);
+}
+.container .item .attributes .icon{
+  font-size: 20px;
+}
+.container .item:hover img {
+  filter: blur(4px); /* This will apply the blur to the image when hovering */
+}
+.container .item:hover .attributes{
+  opacity: 1;
+
+  max-width: 100%;
+  margin: 5px 20px 20px 20px;
 }
 .img-container {
   position: relative;
@@ -175,6 +209,29 @@ img{
   filter: drop-shadow(-5px 0px 0px #161616);
 }
 
+.gradient-background-wrapper {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.gradient-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #ff6347 0%, #ffd700 100%); /* Default gradient */
+  opacity: 1;
+  transition: 1s ease; /* Hardcoded transition */
+}
+
+.new-gradient {
+  opacity: 0;
+  transition: 1s ease; /* Hardcoded transition */
+}
 
 a{
   cursor: pointer;
@@ -344,6 +401,39 @@ input[type="range"]::-ms-thumb {
 .pixel-perfect-2x {
   image-rendering: pixelated;
   scale: 2;
+}
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column */
+    grid-template-rows: repeat(4, min-content); /* Adjust to 4 rows */
+    width: 100vw; /* Full viewport width */
+  }
+
+  .first-child {
+    grid-column: 1;
+    grid-row: 1; /* Moves to the first row */
+    align-self: center;
+    justify-self: center !important;
+  }
+
+  .second-child {
+    grid-column: 1;
+    grid-row: 2; /* Moves to the second row */
+  }
+
+  .third-child {
+    grid-column: 1;
+    grid-row: 3; /* Moves to the third row */
+  }
+
+  .fourth-child {
+    grid-column: 1;
+    grid-row: 4; /* Moves to the fourth row */
+  }
+  .build .container{
+    width: 90%;
+    margin: 0px 5%;
+  }
 }
 @keyframes item-load {
   0%{

@@ -21,7 +21,7 @@ const ImageCarousel = ({images, imgClassName="pixel-perfect-4x", overrideStyle, 
           className={`img-item ${index === currentIndex ? "visible" : "hidden"}`}
           key={item.name}
         >
-          <a href={item.link} target="blank">
+          <a href={item.link} target="_blank">
             <img
               className={imgClassName}
               src={item.icon}

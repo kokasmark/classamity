@@ -186,10 +186,7 @@
                     {
                         "name": "Thunder Zapper",
                         "icon": "/classamity/prehardmode_files/Thunder_Zapper.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Thunder_Zapper",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Thunder_Zapper"
                     },
                     {
                         "name": "Veering Wind",
@@ -240,10 +237,7 @@
                     {
                         "name": "Frost Blossom Staff",
                         "icon": "/classamity/prehardmode_files/Frost_Blossom_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Frost_Blossom_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Frost_Blossom_Staff"
                     },
                     {
                         "name": "Stormjaw Staff",
@@ -1280,10 +1274,7 @@
                     {
                         "name": "Hellwing Staff",
                         "icon": "/classamity/prehardmode_files/53px-Hellwing_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Hellwing_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Hellwing_Staff"
                     },
                     {
                         "name": "Space Gun",
@@ -1750,10 +1741,7 @@
                     {
                         "name": "Aquashard Shotgun",
                         "icon": "/classamity/prehardmode_files/Aquashard_Shotgun.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Aquashard_Shotgun",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Aquashard_Shotgun"
                     },
                     {
                         "name": "The Bee's Knees",
@@ -1763,10 +1751,7 @@
                     {
                         "name": "Galeforce",
                         "icon": "/classamity/prehardmode_files/26px-Galeforce.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Galeforce",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Galeforce"
                     },
                     {
                         "name": "Magna Cannon",
@@ -1948,10 +1933,7 @@
                     {
                         "name": "Vile Feeder",
                         "icon": "/classamity/prehardmode_files/Vile_Feeder.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Vile_Feeder",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Vile_Feeder"
                     },
                     {
                         "name": "Explosive Trap Rod",
@@ -2123,10 +2105,7 @@
                     {
                         "name": "Aestheticus",
                         "icon": "/classamity/prehardmode_files/Aestheticus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Aestheticus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Aestheticus"
                     },
                     {
                         "name": "Brittle Star Staff",
@@ -2525,8 +2504,7 @@
                     {
                         "name": "Flamelash",
                         "icon": "/classamity/prehardmode_files/Flamelash.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Flamelash",
-                        "attributes": ["homing"]
+                        "link": "https://calamitymod.wiki.gg/wiki/Flamelash"
                     },
                     {
                         "name": "Pulse Pistol",
@@ -2713,10 +2691,7 @@
                     {
                         "name": "Shinobi Blade",
                         "icon": "/classamity/prehardmode_files/Shinobi_Blade.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Shinobi_Blade",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Shinobi_Blade"
                     },
                     {
                         "name": "Metal Monstrosity",
@@ -2797,10 +2772,7 @@
                     {
                         "name": "Aestheticus",
                         "icon": "/classamity/prehardmode_files/Aestheticus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Aestheticus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Aestheticus"
                     },
                     {
                         "name": "Brittle Star Staff",
@@ -3416,10 +3388,7 @@
                     {
                         "name": "Prismalline",
                         "icon": "/classamity/hardmode_files/41px-Prismalline.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Prismalline",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Prismalline"
                     },
                     {
                         "name": "Burning Strife",
@@ -3495,10 +3464,7 @@
                     {
                         "name": "Lunic Eye",
                         "icon": "/classamity/hardmode_files/Lunic_Eye.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye"
                     },
                     {
                         "name": "Rod of Discord",
@@ -3973,10 +3939,7 @@
                     {
                         "name": "Snowstorm Staff",
                         "icon": "/classamity/hardmode_files/Snowstorm_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Snowstorm_Staff",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Snowstorm_Staff"
                     },
                     {
                         "name": "Tome of Infinite Wisdom",
@@ -4072,10 +4035,7 @@
                     {
                         "name": "Igneous Exaltation",
                         "icon": "/classamity/hardmode_files/39px-Igneous_Exaltation.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Igneous_Exaltation",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Igneous_Exaltation"
                     },
                     {
                         "name": "Mounted Scanner",
@@ -4166,10 +4126,7 @@
                     {
                         "name": "Equanimity",
                         "icon": "/classamity/hardmode_files/Equanimity.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Equanimity",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Equanimity"
                     },
                     {
                         "name": "Kelvin Catalyst",
@@ -4199,10 +4156,7 @@
                     {
                         "name": "Frequency Manipulator",
                         "icon": "/classamity/hardmode_files/42px-Frequency_Manipulator.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Frequency_Manipulator",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Frequency_Manipulator"
                     }
                 ],
                 "armor": [
@@ -4263,10 +4217,7 @@
                     {
                         "name": "Lunic Eye",
                         "icon": "/classamity/hardmode_files/Lunic_Eye.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye"
                     },
                     {
                         "name": "Rod of Discord",
@@ -4933,10 +4884,7 @@
                     {
                         "name": "Frequency Manipulator",
                         "icon": "/classamity/hardmode_files/42px-Frequency_Manipulator.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Frequency_Manipulator",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Frequency_Manipulator"
                     },
                     {
                         "name": "Titanium Shuriken",
@@ -4997,10 +4945,7 @@
                     {
                         "name": "Lunic Eye",
                         "icon": "/classamity/hardmode_files/Lunic_Eye.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye"
                     },
                     {
                         "name": "Rod of Discord",
@@ -5223,10 +5168,7 @@
                     {
                         "name": "Brimlash",
                         "icon": "/classamity/hardmode_files/Brimlash.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Brimlash",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Brimlash"
                     },
                     {
                         "name": "Darklight Greatsword",
@@ -5332,10 +5274,7 @@
                     {
                         "name": "Chlorophyte Shotbow",
                         "icon": "/classamity/hardmode_files/Chlorophyte_Shotbow.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Chlorophyte_Shotbow",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Chlorophyte_Shotbow"
                     },
                     {
                         "name": "Hallowed Repeater",
@@ -5456,10 +5395,7 @@
                     {
                         "name": "Gleaming Magnolia",
                         "icon": "/classamity/hardmode_files/Gleaming_Magnolia.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Gleaming_Magnolia",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Gleaming_Magnolia"
                     },
                     {
                         "name": "Lashes of Chaos",
@@ -5575,10 +5511,7 @@
                     {
                         "name": "Vengeful Sun Staff",
                         "icon": "/classamity/hardmode_files/54px-Vengeful_Sun_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Vengeful_Sun_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Vengeful_Sun_Staff"
                     },
                     {
                         "name": "Cryogenic Staff",
@@ -5679,11 +5612,7 @@
                     {
                         "name": "Spear of Destiny",
                         "icon": "/classamity/hardmode_files/Spear_of_Destiny.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Spear_of_Destiny",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Spear_of_Destiny"
                     },
                     {
                         "name": "Totality Breakers",
@@ -5698,10 +5627,7 @@
                     {
                         "name": "Crushsaw Crasher",
                         "icon": "/classamity/hardmode_files/Crushsaw_Crasher.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Crushsaw_Crasher",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Crushsaw_Crasher"
                     },
                     {
                         "name": "Frosty Flare",
@@ -5767,10 +5693,7 @@
                     {
                         "name": "Lunic Eye",
                         "icon": "/classamity/hardmode_files/Lunic_Eye.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye"
                     },
                     {
                         "name": "Rod of Discord",
@@ -5983,11 +5906,7 @@
                     {
                         "name": "Ark of the Ancients",
                         "icon": "/classamity/hardmode_files/Ark_of_the_Ancients.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Ancients",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Ancients"
                     },
                     {
                         "name": "Blighted Cleaver",
@@ -6007,10 +5926,7 @@
                     {
                         "name": "Terra Blade",
                         "icon": "/classamity/hardmode_files/Terra_Blade.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Terra_Blade",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Terra_Blade"
                     },
                     {
                         "name": "Vampire Knives",
@@ -6111,10 +6027,7 @@
                     {
                         "name": "Wildfire Bloom",
                         "icon": "/classamity/hardmode_files/86px-Wildfire_Bloom.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Wildfire_Bloom",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Wildfire_Bloom"
                     }
                 ],
                 "armor": [
@@ -6200,10 +6113,7 @@
                     {
                         "name": "Astralachnea Staff",
                         "icon": "/classamity/hardmode_files/Astralachnea_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Astralachnea_Staff",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Astralachnea_Staff"
                     },
                     {
                         "name": "Atlantis",
@@ -6223,10 +6133,7 @@
                     {
                         "name": "Photosynthesis",
                         "icon": "/classamity/hardmode_files/59px-Photosynthesis.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Photosynthesis",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Photosynthesis"
                     },
                     {
                         "name": "Shifting Sands",
@@ -6236,10 +6143,7 @@
                     {
                         "name": "Wrath of the Ancients",
                         "icon": "/classamity/hardmode_files/Wrath_of_the_Ancients.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Wrath_of_the_Ancients",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Wrath_of_the_Ancients"
                     }
                 ],
                 "armor": [
@@ -6345,10 +6249,7 @@
                     {
                         "name": "Vengeful Sun Staff",
                         "icon": "/classamity/hardmode_files/54px-Vengeful_Sun_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Vengeful_Sun_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Vengeful_Sun_Staff"
                     },
                     {
                         "name": "Cryogenic Staff",
@@ -6454,10 +6355,7 @@
                     {
                         "name": "Auroradical Throw",
                         "icon": "/classamity/hardmode_files/Auroradical_Throw.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Auroradical_Throw",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Auroradical_Throw"
                     },
                     {
                         "name": "Brackish Flask",
@@ -6467,10 +6365,7 @@
                     {
                         "name": "Crushsaw Crasher",
                         "icon": "/classamity/hardmode_files/Crushsaw_Crasher.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Crushsaw_Crasher",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Crushsaw_Crasher"
                     },
                     {
                         "name": "Defective Sphere",
@@ -6546,10 +6441,7 @@
                     {
                         "name": "Lunic Eye",
                         "icon": "/classamity/hardmode_files/Lunic_Eye.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye"
                     },
                     {
                         "name": "Rod of Discord",
@@ -6762,11 +6654,7 @@
                     {
                         "name": "Ark of the Ancients",
                         "icon": "/classamity/hardmode_files/Ark_of_the_Ancients.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Ancients",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Ancients"
                     },
                     {
                         "name": "Christmas Tree Sword",
@@ -7311,10 +7199,7 @@
                     {
                         "name": "Lunic Eye",
                         "icon": "/classamity/hardmode_files/Lunic_Eye.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Lunic_Eye"
                     },
                     {
                         "name": "Rod of Discord",
@@ -9108,19 +8993,12 @@
                     {
                         "name": "Ark of the Elements",
                         "icon": "/classamity/postmoonlord_files/56px-Ark_of_the_Elements.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Elements",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Elements"
                     },
                     {
                         "name": "Elemental Shiv",
                         "icon": "/classamity/postmoonlord_files/Elemental_Shiv.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Elemental_Shiv",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Elemental_Shiv"
                     },
                     {
                         "name": "Meowmere",
@@ -9226,10 +9104,7 @@
                     {
                         "name": "Elemental Blaster",
                         "icon": "/classamity/postmoonlord_files/78px-Elemental_Blaster.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Elemental_Blaster",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Elemental_Blaster"
                     },
                     {
                         "name": "Planetary Annihilation",
@@ -9350,8 +9225,7 @@
                     {
                         "name": "Nuclear Fury",
                         "icon": "/classamity/postmoonlord_files/Nuclear_Fury.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Nuclear_Fury",
-                        "attributes": ["homing","piercing"]
+                        "link": "https://calamitymod.wiki.gg/wiki/Nuclear_Fury"
                     },
                     {
                         "name": "Rouge Slash",
@@ -9614,10 +9488,7 @@
                     {
                         "name": "Eye of Magnus",
                         "icon": "/classamity/postmoonlord_files/Eye_of_Magnus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus"
                     },
                     {
                         "name": "Relic of Deliverance",
@@ -9850,18 +9721,12 @@
                     {
                         "name": "Mourningstar",
                         "icon": "/classamity/postmoonlord_files/Mourningstar.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Mourningstar",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Mourningstar"
                     },
                     {
                         "name": "Terratomere",
                         "icon": "/classamity/postmoonlord_files/Terratomere.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Terratomere",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Terratomere"
                     }
                 ],
                 "armor": [
@@ -10152,7 +10017,7 @@
                         "link": "https://calamitymod.wiki.gg/wiki/Dazzling_Stabber_Staff"
                     },
                     {
-                        "name": "King of Constellations, Tenry\u00c5\u00ab",
+                        "name": "King of Constellations, Tenryū",
                         "icon": "/classamity/postmoonlord_files/33px-King_of_Constellations,_Tenry%C5%AB.png",
                         "link": "https://calamitymod.wiki.gg/wiki/King_of_Constellations,_Tenry%C5%AB"
                     },
@@ -10164,10 +10029,7 @@
                     {
                         "name": "Stellar Torus Staff",
                         "icon": "/classamity/postmoonlord_files/Stellar_Torus_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Stellar_Torus_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Stellar_Torus_Staff"
                     },
                     {
                         "name": "Virid Vanguard",
@@ -10263,19 +10125,12 @@
                     {
                         "name": "Reality Rupture",
                         "icon": "/classamity/postmoonlord_files/65px-Reality_Rupture.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Reality_Rupture",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Reality_Rupture"
                     },
                     {
                         "name": "Shattered Sun",
                         "icon": "/classamity/postmoonlord_files/50px-Shattered_Sun.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Shattered_Sun",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Shattered_Sun"
                     },
                     {
                         "name": "Twisting Thunder",
@@ -10295,10 +10150,7 @@
                     {
                         "name": "Profaned Partisan",
                         "icon": "/classamity/postmoonlord_files/Profaned_Partisan.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Profaned_Partisan",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Profaned_Partisan"
                     }
                 ],
                 "armor": [
@@ -10384,10 +10236,7 @@
                     {
                         "name": "Eye of Magnus",
                         "icon": "/classamity/postmoonlord_files/Eye_of_Magnus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus"
                     },
                     {
                         "name": "Relic of Deliverance",
@@ -10604,18 +10453,12 @@
                     {
                         "name": "Death's Ascension",
                         "icon": "/classamity/postmoonlord_files/55px-Death's_Ascension.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Death%27s_Ascension",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Death%27s_Ascension"
                     },
                     {
                         "name": "Galileo Gladius",
                         "icon": "/classamity/postmoonlord_files/Galileo_Gladius.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Galileo_Gladius",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Galileo_Gladius"
                     },
                     {
                         "name": "Insidious Impaler",
@@ -10625,10 +10468,7 @@
                     {
                         "name": "Neptune's Bounty",
                         "icon": "/classamity/postmoonlord_files/61px-Neptune's_Bounty.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Neptune%27s_Bounty",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Neptune%27s_Bounty"
                     },
                     {
                         "name": "Lion Heart",
@@ -10835,10 +10675,7 @@
                     {
                         "name": "Ghastly Visage",
                         "icon": "/classamity/postmoonlord_files/Ghastly_Visage.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Ghastly_Visage",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Ghastly_Visage"
                     },
                     {
                         "name": "Phantasmal Fury",
@@ -10929,31 +10766,22 @@
                     {
                         "name": "Calamari's Lament",
                         "icon": "/classamity/postmoonlord_files/44px-Calamari's_Lament.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Calamari%27s_Lament",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Calamari%27s_Lament"
                     },
                     {
-                        "name": "King of Constellations, Tenry\u00c5\u00ab",
+                        "name": "King of Constellations, Tenryū",
                         "icon": "/classamity/postmoonlord_files/33px-King_of_Constellations,_Tenry%C5%AB.png",
                         "link": "https://calamitymod.wiki.gg/wiki/King_of_Constellations,_Tenry%C5%AB"
                     },
                     {
                         "name": "Mutated Truffle",
                         "icon": "/classamity/postmoonlord_files/Mutated_Truffle.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Mutated_Truffle",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Mutated_Truffle"
                     },
                     {
                         "name": "Stellar Torus Staff",
                         "icon": "/classamity/postmoonlord_files/Stellar_Torus_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Stellar_Torus_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Stellar_Torus_Staff"
                     },
                     {
                         "name": "Virid Vanguard",
@@ -10963,10 +10791,7 @@
                     {
                         "name": "Cadaverous Carrion",
                         "icon": "/classamity/postmoonlord_files/40px-Cadaverous_Carrion.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion"
                     },
                     {
                         "name": "Lunar Portal Staff",
@@ -11062,10 +10887,7 @@
                     {
                         "name": "Toxicant Twister",
                         "icon": "/classamity/postmoonlord_files/Toxicant_Twister.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Toxicant_Twister",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Toxicant_Twister"
                     },
                     {
                         "name": "Twisting Thunder",
@@ -11161,10 +10983,7 @@
                     {
                         "name": "Eye of Magnus",
                         "icon": "/classamity/postmoonlord_files/Eye_of_Magnus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus"
                     },
                     {
                         "name": "Relic of Deliverance",
@@ -11402,18 +11221,12 @@
                     {
                         "name": "Cosmic Shiv",
                         "icon": "/classamity/postmoonlord_files/Cosmic_Shiv.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Cosmic_Shiv",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Cosmic_Shiv"
                     },
                     {
                         "name": "Empyrean Knives",
                         "icon": "/classamity/postmoonlord_files/Empyrean_Knives.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Empyrean_Knives",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Empyrean_Knives"
                     },
                     {
                         "name": "Excelsus",
@@ -11423,10 +11236,7 @@
                     {
                         "name": "Galaxy Smasher",
                         "icon": "/classamity/postmoonlord_files/65px-Galaxy_Smasher.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Galaxy_Smasher",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Galaxy_Smasher"
                     },
                     {
                         "name": "Murasama",
@@ -11578,34 +11388,22 @@
                     {
                         "name": "Event Horizon",
                         "icon": "/classamity/postmoonlord_files/Event_Horizon.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Event_Horizon",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Event_Horizon"
                     },
                     {
                         "name": "Light God's Brilliance",
                         "icon": "/classamity/postmoonlord_files/Light_God's_Brilliance.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Light_God%27s_Brilliance",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Light_God%27s_Brilliance"
                     },
                     {
                         "name": "Nebulous Cataclysm",
                         "icon": "/classamity/postmoonlord_files/60px-Nebulous_Cataclysm.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Nebulous_Cataclysm",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Nebulous_Cataclysm"
                     },
                     {
                         "name": "Recitation of the Beast",
                         "icon": "/classamity/postmoonlord_files/Recitation_of_the_Beast.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Recitation_of_the_Beast",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Recitation_of_the_Beast"
                     },
                     {
                         "name": "Tesla Cannon",
@@ -11696,10 +11494,7 @@
                     {
                         "name": "Cosmic Viper Engine",
                         "icon": "/classamity/postmoonlord_files/Cosmic_Viper_Engine.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Cosmic_Viper_Engine",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Cosmic_Viper_Engine"
                     },
                     {
                         "name": "Endo Hydra Staff",
@@ -11709,10 +11504,7 @@
                     {
                         "name": "Cadaverous Carrion",
                         "icon": "/classamity/postmoonlord_files/40px-Cadaverous_Carrion.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion"
                     },
                     {
                         "name": "Kaleidoscope",
@@ -11793,18 +11585,12 @@
                     {
                         "name": "Eradicator",
                         "icon": "/classamity/postmoonlord_files/47px-Eradicator.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eradicator",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eradicator"
                     },
                     {
                         "name": "Executioner's Blade",
                         "icon": "/classamity/postmoonlord_files/48px-Executioner's_Blade.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Executioner%27s_Blade",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Executioner%27s_Blade"
                     },
                     {
                         "name": "Hypothermia",
@@ -11814,18 +11600,12 @@
                     {
                         "name": "Penumbra",
                         "icon": "/classamity/postmoonlord_files/Penumbra.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Penumbra",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Penumbra"
                     },
                     {
                         "name": "Gods' Paranoia",
                         "icon": "/classamity/postmoonlord_files/Gods'_Paranoia.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Gods%27_Paranoia",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Gods%27_Paranoia"
                     },
                     {
                         "name": "Plasma Grenade",
@@ -11896,10 +11676,7 @@
                     {
                         "name": "Eye of Magnus",
                         "icon": "/classamity/postmoonlord_files/Eye_of_Magnus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus"
                     },
                     {
                         "name": "Rod of Discord",
@@ -12122,35 +11899,22 @@
                     {
                         "name": "Ark of the Cosmos",
                         "icon": "/classamity/postmoonlord_files/63px-Ark_of_the_Cosmos.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Cosmos",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Ark_of_the_Cosmos"
                     },
                     {
                         "name": "Ataraxia",
                         "icon": "/classamity/postmoonlord_files/71px-Ataraxia.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Ataraxia",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Ataraxia"
                     },
                     {
                         "name": "Dragon Pow",
                         "icon": "/classamity/postmoonlord_files/57px-Dragon_Pow.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Dragon_Pow",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Dragon_Pow"
                     },
                     {
                         "name": "Dragon Rage",
                         "icon": "/classamity/postmoonlord_files/64px-Dragon_Rage.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Dragon_Rage",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Dragon_Rage"
                     },
                     {
                         "name": "The Oracle",
@@ -12241,10 +12005,7 @@
                     {
                         "name": "Kingsbane",
                         "icon": "/classamity/postmoonlord_files/69px-Kingsbane.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Kingsbane",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Kingsbane"
                     },
                     {
                         "name": "Tyranny's End",
@@ -12264,26 +12025,17 @@
                     {
                         "name": "Magnomaly Cannon",
                         "icon": "/classamity/postmoonlord_files/68px-Magnomaly_Cannon.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Magnomaly_Cannon",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Magnomaly_Cannon"
                     },
                     {
                         "name": "Photoviscerator",
                         "icon": "/classamity/postmoonlord_files/104px-Photoviscerator.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Photoviscerator",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Photoviscerator"
                     },
                     {
                         "name": "Condemnation",
                         "icon": "/classamity/postmoonlord_files/98px-Condemnation.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Condemnation",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Condemnation"
                     }
                 ],
                 "armor": [
@@ -12374,10 +12126,7 @@
                     {
                         "name": "Void Vortex",
                         "icon": "/classamity/postmoonlord_files/65px-Void_Vortex.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Void_Vortex",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Void_Vortex"
                     },
                     {
                         "name": "The Wand",
@@ -12392,11 +12141,7 @@
                     {
                         "name": "Subsuming Vortex",
                         "icon": "/classamity/postmoonlord_files/43px-Subsuming_Vortex.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Subsuming_Vortex",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Subsuming_Vortex"
                     },
                     {
                         "name": "Gruesome Eminence",
@@ -12487,18 +12232,12 @@
                     {
                         "name": "Yharon's Kindle Staff",
                         "icon": "/classamity/postmoonlord_files/40px-Yharon's_Kindle_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Yharon%27s_Kindle_Staff",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Yharon%27s_Kindle_Staff"
                     },
                     {
                         "name": "Cosmic Immaterializer",
                         "icon": "/classamity/postmoonlord_files/43px-Cosmic_Immaterializer.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Cosmic_Immaterializer",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Cosmic_Immaterializer"
                     },
                     {
                         "name": "Ares' Exoskeleton",
@@ -12508,10 +12247,7 @@
                     {
                         "name": "Cadaverous Carrion",
                         "icon": "/classamity/postmoonlord_files/Cadaverous_Carrion.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion"
                     },
                     {
                         "name": "Kaleidoscope",
@@ -12577,10 +12313,7 @@
                     {
                         "name": "Eradicator",
                         "icon": "/classamity/postmoonlord_files/47px-Eradicator.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eradicator",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eradicator"
                     },
                     {
                         "name": "Seraphim",
@@ -12605,10 +12338,7 @@
                     {
                         "name": "Celestus",
                         "icon": "/classamity/postmoonlord_files/75px-Celestus.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Celestus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Celestus"
                     },
                     {
                         "name": "Supernova",
@@ -12689,10 +12419,7 @@
                     {
                         "name": "Eye of Magnus",
                         "icon": "/classamity/postmoonlord_files/Eye_of_Magnus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus"
                     },
                     {
                         "name": "Rod of Discord",
@@ -12950,10 +12677,7 @@
                     {
                         "name": "Red Sun",
                         "icon": "/classamity/postmoonlord_files/Red_Sun.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Red_Sun",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Red_Sun"
                     },
                     {
                         "name": "Triactis' True Paladinian Mage-Hammer of Might",
@@ -13024,10 +12748,7 @@
                     {
                         "name": "Svantechnical",
                         "icon": "/classamity/postmoonlord_files/Svantechnical.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Svantechnical",
-                        "attributes": [
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Svantechnical"
                     },
                     {
                         "name": "Voidragon",
@@ -13123,11 +12844,7 @@
                     {
                         "name": "Rainbow Party Cannon",
                         "icon": "/classamity/postmoonlord_files/69px-Rainbow_Party_Cannon.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Rainbow_Party_Cannon",
-                        "attributes": [
-                            "homing",
-                            "piercing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Rainbow_Party_Cannon"
                     },
                     {
                         "name": "Staff of Blushie",
@@ -13218,10 +12935,7 @@
                     {
                         "name": "Cadaverous Carrion",
                         "icon": "/classamity/postmoonlord_files/Cadaverous_Carrion.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Cadaverous_Carrion"
                     },
                     {
                         "name": "Flamsteed Ring",
@@ -13302,10 +13016,7 @@
                     {
                         "name": "Celestus",
                         "icon": "/classamity/postmoonlord_files/75px-Celestus.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Celestus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Celestus"
                     },
                     {
                         "name": "Nanoblack Reaper",
@@ -13391,10 +13102,7 @@
                     {
                         "name": "Eye of Magnus",
                         "icon": "/classamity/postmoonlord_files/Eye_of_Magnus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus",
-                        "attributes": [
-                            "homing"
-                        ]
+                        "link": "https://calamitymod.wiki.gg/wiki/Eye_of_Magnus"
                     },
                     {
                         "name": "Rod of Harmony",

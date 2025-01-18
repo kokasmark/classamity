@@ -70,6 +70,7 @@ function App() {
               {stages[selectedStage].classes[selectedClass].accessories.map((accessorie,index)=>(
                 <div className='item' style={{animationDelay: `${index/10}s`}} key={accessorie.name}>
                    <a href={accessorie.link} target='_blank'><img src={accessorie.icon} title={accessorie.name}></img></a>
+                   <p className='attributes'>{accessorie.name}</p>
                 </div>
               ))}
             </div>
@@ -77,6 +78,7 @@ function App() {
               {stages[selectedStage].classes[selectedClass].buffsPotionsAmmo.map((b,index)=>(
                 <div className='item' style={{animationDelay: `${index/10}s`}} key={b.name}>
                    <a href={b.link} target='_blank'><img src={b.icon} title={b.name}></img></a>
+                   <p className='attributes'>{b.name}</p>
                 </div>
               ))}
             </div>

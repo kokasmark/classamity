@@ -62,6 +62,8 @@ body{
   transition: 0.3s;
   border: 2px solid;
   cursor: pointer;
+  text-align: center;
+  align-content: center;
 }
 .selected-btn{
   transform: scale(1.1);

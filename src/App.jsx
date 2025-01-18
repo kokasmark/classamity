@@ -8,6 +8,7 @@ import GradientBackground from './GradientBackground';
 
 import { TbTargetArrow } from "react-icons/tb";
 import { GiPiercedBody } from "react-icons/gi";
+import { GrGithub } from 'react-icons/gr';
 
 function App() {
   console.log("App component rendering...");
@@ -84,6 +85,14 @@ function App() {
             </div>
           </div>
         </div>
+        <footer>
+          <div>
+            <GrGithub style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity' style={{marginLeft: 5}}>Github</a>
+          </div>
+          <div>
+            <GrGithub style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity/issues/1' style={{marginLeft: 5}}>Help with the Guide</a>
+          </div> 
+          </footer>
       </div>}
     </>
   )

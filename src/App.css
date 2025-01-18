@@ -8,6 +8,20 @@ body{
   font-family: "terraria",sans-serif;
   overflow: hidden;
 }
+footer{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .app{
   width: 100vw;
   height: 100vh;

@@ -35,10 +35,9 @@ function App() {
         <GradientBackground new_gradient={createLinearGradient(stages[selectedStage].color)}/>
         <div className='stage-select'>
           <input className='stage' type='range' min={0} max={stages.length-1} value={selectedStage} onChange={(e)=>setSelectedStage(e.target.value)}></input>
-          <div className='stage-title' style={{position: 'relative', left: `calc(${(selectedStage/(stages.length-1))*100}% - 200px)`}}>
-            <h3>{stages[selectedStage].title}</h3>
-          </div>
           <div className='stages-preview'>
+            <h3 style={{position: 'absolute', textAlign: "center",left: `calc(${(selectedStage/(stages.length-1))*80}vw - 40vw - 200px)`,top: 30, width: 400}}>
+            {stages[selectedStage].title}</h3>
               {
                 stages.map((stage,index) => (
                   <img width={30} src={stage.icon}  

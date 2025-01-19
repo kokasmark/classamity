@@ -78,17 +78,10 @@ footer div:hover a{
   flex-direction: column;
   align-items: center;
 }
-.stage-title{
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-}
+
 .stages-preview{
   position: absolute;
-  top: 55px;
+  top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,6 +99,7 @@ footer div:hover a{
   overflow-x: hidden;
 }
 .class-select{
+  padding-top: 50px;
   width: fit-content;
   display: flex;
   flex-direction: row;

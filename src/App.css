@@ -4,6 +4,12 @@
   font-weight: normal;
   font-style: normal;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body{
   font-family: "terraria",sans-serif;
   overflow: hidden;
@@ -15,12 +21,46 @@ footer{
   display: flex;
   align-items: start;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
+  padding-top: 2px;
 }
 footer div{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+footer div a{
+  max-width: 0px;
+  overflow-x: hidden;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+footer div:hover a{
+  max-width: 200px;
+}
+.legend{
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 0px;
+}
+.legend div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legend div p{
+  max-width: 0px;
+  overflow-x: hidden;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+.legend div:hover p{
+  max-width: 100px;
 }
 .app{
   width: 100vw;
@@ -34,6 +74,9 @@ footer div{
 .stage-select{
   margin-top: 80px;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .stage-title{
   display: flex;
@@ -63,11 +106,14 @@ footer div{
   overflow-x: hidden;
 }
 .class-select{
-  width: 100%;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   gap: 10px;
   justify-content: center;
+
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
 }
 .btn{
   border-radius: 10px;

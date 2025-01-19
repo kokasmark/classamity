@@ -8,7 +8,7 @@ def count_word_occurrences(url, word):
     word_count = text.count(word.lower())
     return word_count
 
-def add_attribute_to_weapons(data, words, threshold=3):
+def add_attribute_to_weapons(data, words, threshold=2):
     for stage in data:
         print(stage['title'])
         for cls in stage['classes']:
@@ -17,17 +17,17 @@ def add_attribute_to_weapons(data, words, threshold=3):
                 print(f"\t\t{weapon['name']}")
                 link = weapon['link']
                 for word in words:
-                    word_count = count_word_occurrences(link, word)
-                    if word_count >= threshold:
-                        print(f"Found '{word}' {word_count} times in {weapon['name']} ({link})")
-                        if 'attributes' not in weapon:
-                            weapon['attributes'] = []
-                        weapon['attributes'].append(word)
+                    for search in word["search"]:
+                        word_count = count_word_occurrences(link, search)
+                        if word_count >= threshold:
+                            if 'attributes' not in weapon:
+                                weapon['attributes'] = []
+                            weapon['attributes'].append(word["attribute"])
 
 with open('data.json', 'r') as file:
     data = json.load(file)
 
-search_words = ["homing", "piercing"]
+search_words = [{"attribute": "homing", "search": ["homing","home"]}, {"attribute": "piercing", "search": ["piercing","pierce"]}]
 
 add_attribute_to_weapons(data, search_words)
 

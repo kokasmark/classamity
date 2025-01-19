@@ -9,6 +9,7 @@ import GradientBackground from './GradientBackground';
 import { TbTargetArrow } from "react-icons/tb";
 import { GiPiercedBody } from "react-icons/gi";
 import { GrGithub } from 'react-icons/gr';
+import { MdOutlineEdit } from "react-icons/md";
 
 function App() {
   console.log("App component rendering...");
@@ -41,8 +42,8 @@ function App() {
               {
                 stages.map((stage,index) => (
                   <img width={30} src={stage.icon}  
-                  style={{position: 'absolute', left: `calc(${(index/(stages.length-1))*80}vw - 10px)`,opacity: index == selectedStage ? 1.0 : 0.5, 
-                  transform: index == selectedStage && "scale(1.2)", transition: "0.5s"}}/>
+                  style={{position: 'absolute', left: `calc(${(index/(stages.length-1))*80}vw - 40vw - 10px)`,opacity: index == selectedStage ? 1.0 : 0.5, 
+                  transform: index == selectedStage && "scale(1.2)", transition: "0.5s", cursor: 'pointer'}} onClick={()=>setSelectedStage(index)}/>
                 ))
               }
             </div>
@@ -90,9 +91,19 @@ function App() {
             <GrGithub style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity' style={{marginLeft: 5}}>Github</a>
           </div>
           <div>
-            <GrGithub style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity/issues/1' style={{marginLeft: 5}}>Help with the Guide</a>
+            <MdOutlineEdit style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity/issues/1' style={{marginLeft: 5}}>Help with the Guide</a>
           </div> 
-          </footer>
+        </footer>
+        <div className='legend'>
+          <div>
+            <GiPiercedBody style={{fontSize: 30}}/>
+            <p style={{marginLeft: 5}}>Piercing</p>
+          </div>
+          <div>
+            <TbTargetArrow style={{fontSize: 30}}/>
+            <p style={{marginLeft: 5}}>Homing</p>
+          </div>
+        </div>
       </div>}
     </>
   )

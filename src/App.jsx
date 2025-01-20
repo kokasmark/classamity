@@ -106,7 +106,7 @@ function App() {
             <GrGithub style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity' style={{marginLeft: 5}}>Github</a>
           </div>
           <div>
-            <MdOutlineEdit style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity/issues/1' style={{marginLeft: 5}}>Help with the Guide</a>
+            <MdOutlineEdit style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity/issues' style={{marginLeft: 5}}>Help with the Guide</a>
           </div> 
         </footer>
 

@@ -20,6 +20,7 @@ const ImageCarousel = ({images, imgClassName="pixel-perfect-4x", overrideStyle, 
         <div
           className={`img-item ${index === currentIndex ? "visible" : "hidden"}`}
           key={item.name}
+          data-name={item.name}
         >
           <a href={item.link} target="_blank">
             <img

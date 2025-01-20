@@ -10,6 +10,9 @@ import { TbTargetArrow } from "react-icons/tb";
 import { GiPiercedBody } from "react-icons/gi";
 import { GrGithub } from 'react-icons/gr';
 import { MdOutlineEdit } from "react-icons/md";
+import { FiInfo } from "react-icons/fi";
+
+import Alert from './Alert';
 
 function App() {
   console.log("App component rendering...");
@@ -33,6 +36,7 @@ function App() {
     <>
       {stages && <div className='app'>
         <GradientBackground new_gradient={createLinearGradient(stages[selectedStage].color)}/>
+        <Alert content={"25 items changed!"} contributors={["FireFox029"]}/>
         <div className='stage-select'>
           <input className='stage' type='range' min={0} max={stages.length-1} value={selectedStage} onChange={(e)=>setSelectedStage(e.target.value)}></input>
           <div className='stages-preview'>
@@ -61,7 +65,7 @@ function App() {
             <ImageCarousel images={stages[selectedStage].classes[selectedClass].armor}  noItem={"no-armor.png"}/>
             <div className='container second-child' style={{background: stages[selectedStage].color}} data-title="Weapons">
               {stages[selectedStage].classes[selectedClass].weapons.map((weapon,index)=>(
-                <div className='item' style={{animationDelay: `${index/10}s`}} key={weapon.name}>
+                <div className='item' style={{animationDelay: `${index/10}s`}} key={weapon.name} data-name={weapon.name}>
                    <a href={weapon.link} target='_blank'><img src={weapon.icon}></img></a>
                    {weapon.attributes !== undefined && 
                     <div className='attributes'>
@@ -73,14 +77,14 @@ function App() {
             </div>
             <div className='container third-child'  style={{background: stages[selectedStage].color}} data-title="Accessories">
               {stages[selectedStage].classes[selectedClass].accessories.map((accessorie,index)=>(
-                <div className='item' style={{animationDelay: `${index/10}s`}} key={accessorie.name}>
+                <div className='item' style={{animationDelay: `${index/10}s`}} key={accessorie.name} data-name={accessorie.name}>
                    <a href={accessorie.link} target='_blank'><img src={accessorie.icon} title={accessorie.name}></img></a>
                 </div>
               ))}
             </div>
             <div className='container fourth-child'  style={{background: stages[selectedStage].color}} data-title="Potions, Buffs & Ammo">
               {stages[selectedStage].classes[selectedClass].buffsPotionsAmmo.map((b,index)=>(
-                <div className='item' style={{animationDelay: `${index/10}s`}} key={b.name}>
+                <div className='item' style={{animationDelay: `${index/10}s`}} key={b.name} data-name={b.name}>
                    <a href={b.link} target='_blank'><img src={b.icon} title={b.name}></img></a>
                 </div>
               ))}
@@ -95,14 +99,18 @@ function App() {
             <MdOutlineEdit style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity/issues/1' style={{marginLeft: 5}}>Help with the Guide</a>
           </div> 
         </footer>
+
         <div className='legend'>
-          <div>
-            <GiPiercedBody style={{fontSize: 30}}/>
-            <p style={{marginLeft: 5}}>Piercing</p>
-          </div>
-          <div>
-            <TbTargetArrow style={{fontSize: 30}}/>
-            <p style={{marginLeft: 5}}>Homing</p>
+          <FiInfo style={{fontSize: 30}}/>
+          <div className='content'>
+            <div>
+              <GiPiercedBody style={{fontSize: 30}}/>
+              <p style={{marginLeft: 5}}>Piercing</p>
+            </div>
+            <div>
+              <TbTargetArrow style={{fontSize: 30}}/>
+              <p style={{marginLeft: 5}}>Homing</p>
+            </div>
           </div>
         </div>
       </div>}

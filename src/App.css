@@ -40,27 +40,30 @@ footer div:hover a{
 }
 .legend{
   position: absolute;
-  top: -10px;
-  right: 0px;
+  top: 5px;
+  right: -100px;
   display: flex;
   align-items: start;
   justify-content: center;
   gap: 5px;
   padding-top: 0px;
 }
-.legend div{
+.legend .content{
+  position: relative;
+  right: 100%;
+  opacity: 0;
+  transition: 1s;
+  backdrop-filter: blur(2px);
+  padding: 10px;
+}
+.legend:hover .content{
+
+  opacity: 1;
+}
+.legend .content div{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.legend div p{
-  max-width: 0px;
-  overflow-x: hidden;
-  white-space: nowrap;
-  transition: 0.5s;
-}
-.legend div:hover p{
-  max-width: 100px;
 }
 .app{
   width: 100vw;
@@ -191,7 +194,7 @@ footer div:hover a{
   background: inherit;
   border-radius: 10px;
 }
-.container .item{
+.container .item {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -200,6 +203,31 @@ footer div:hover a{
   justify-content: center;
   transform: scale(0);
   animation: item-load 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.5) forwards;
+  position: relative; /* Required for pseudo-elements */
+}
+
+.container .item::after {
+  content: attr(data-name); 
+  position: absolute;
+  background-color: #fff;
+  color: #1d1d1d;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  top: -30%;
+  left: 50%; 
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.container .item:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 .container .item .attributes{
   opacity: 0;
@@ -222,7 +250,8 @@ footer div:hover a{
   font-size: 20px;
 }
 .container .item:hover img {
-  filter: blur(4px); /* This will apply the blur to the image when hovering */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 .container .item:hover .attributes{
   opacity: 1;
@@ -457,6 +486,28 @@ input[type="range"]::-ms-thumb {
 .pixel-perfect-2x {
   image-rendering: pixelated;
   scale: 2;
+}
+
+.alert {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3682f4;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 4px;
+  border: 2px solid white;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+.alert.visible {
+  top: 20px;
+  opacity: 1;
 }
 @media (max-width: 600px) {
   .grid-container {

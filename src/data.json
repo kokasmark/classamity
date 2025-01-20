@@ -255,11 +255,6 @@
                         ]
                     },
                     {
-                        "name": "Stormjaw Staff",
-                        "icon": "/classamity/images/Stormjaw_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Stormjaw_Staff"
-                    },
-                    {
                         "name": "Wulfrum Controller",
                         "icon": "/classamity/images/Wulfrum_Controller.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Wulfrum_Controller"
@@ -273,6 +268,32 @@
                         "name": "Leather Whip",
                         "icon": "/classamity/images/Leather_Whip.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Leather_Whip"
+                    },
+                    {
+                        "name": "Imp Staff",
+                        "link": "https://terraria.fandom.com/wiki/Imp_Staff",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c8/Imp_Staff_%28old%29.png",
+                        "attributes": [
+                            "homing",
+                            "piercing"
+                        ]
+                    },
+                    {
+                        "name": "Cinder Blossom Staff",
+                        "link": "https://calamitymod.wiki.gg/wiki/Cinder_Blossom_Staff",
+                        "icon": "https://calamitymod.wiki.gg/images/4/45/Cinder_Blossom_Staff.png?20220316080205",
+                        "attributes": [
+                            "homing",
+                            "piercing"
+                        ]
+                    },
+                    {
+                        "name": "Vampire Frog Staff",
+                        "link": "https://terraria.fandom.com/wiki/Vampire_Frog_Staff",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/3/37/Vampire_Frog_Staff.png",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "armor": [
@@ -824,14 +845,6 @@
                         ]
                     },
                     {
-                        "name": "Stormjaw Staff",
-                        "icon": "/classamity/images/Stormjaw_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Stormjaw_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Caustic Croaker Staff",
                         "icon": "/classamity/images/Caustic_Croaker_Staff.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Caustic_Croaker_Staff",
@@ -867,6 +880,23 @@
                         "name": "Snapthorn",
                         "icon": "/classamity/images/Snapthorn.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Snapthorn"
+                    },
+                    {
+                        "name": "Vampire Frog Staff",
+                        "link": "https://terraria.fandom.com/wiki/Vampire_Frog_Staff",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/3/37/Vampire_Frog_Staff.png",
+                        "attributes": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Imp Staff",
+                        "link": "https://terraria.fandom.com/wiki/Imp_Staff",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c8/Imp_Staff_%28old%29.png",
+                        "attributes": [
+                            "homing",
+                            "piercing"
+                        ]
                     }
                 ],
                 "armor": [
@@ -2018,14 +2048,6 @@
                 "class": "Summoning",
                 "weapons": [
                     {
-                        "name": "Dank Staff",
-                        "icon": "/classamity/images/42px-Dank_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Dank_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Hornet Staff",
                         "icon": "/classamity/images/Hornet_Staff.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Hornet_Staff"
@@ -2742,14 +2764,6 @@
                         "name": "Herring Staff",
                         "icon": "/classamity/images/Herring_Staff.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Herring_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
-                        "name": "Staff of Necrosteocytes",
-                        "icon": "/classamity/images/Staff_of_Necrosteocytes.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Staff_of_Necrosteocytes",
                         "attributes": [
                             "piercing"
                         ]
@@ -3508,22 +3522,6 @@
                         ]
                     },
                     {
-                        "name": "Caustic Staff",
-                        "icon": "/classamity/images/Caustic_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Caustic_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
-                        "name": "Glacial Embrace",
-                        "icon": "/classamity/images/Glacial_Embrace.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Glacial_Embrace",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Sanguine Staff",
                         "icon": "/classamity/images/Sanguine_Staff.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Sanguine_Staff"
@@ -3550,6 +3548,14 @@
                         "name": "Firecracker",
                         "icon": "/classamity/images/Firecracker.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Firecracker"
+                    },
+                    {
+                        "name": "Blade Staff",
+                        "link": "https://terraria.fandom.com/wiki/Blade_Staff",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/8/89/Blade_Staff.png",
+                        "attributes": [
+                            "piercing"
+                        ]
                     }
                 ],
                 "armor": [
@@ -4320,25 +4326,9 @@
                 "class": "Summoning",
                 "weapons": [
                     {
-                        "name": "Caustic Staff",
-                        "icon": "/classamity/images/Caustic_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Caustic_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Deepsea Staff",
                         "icon": "/classamity/images/Deepsea_Staff.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Deepsea_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
-                        "name": "Glacial Embrace",
-                        "icon": "/classamity/images/Glacial_Embrace.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Glacial_Embrace",
                         "attributes": [
                             "piercing"
                         ]
@@ -5152,14 +5142,6 @@
             {
                 "class": "Summoning",
                 "weapons": [
-                    {
-                        "name": "Caustic Staff",
-                        "icon": "/classamity/images/Caustic_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Caustic_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
                     {
                         "name": "Daedalus Golem Staff",
                         "icon": "/classamity/images/45px-Daedalus_Golem_Staff.png",
@@ -6836,14 +6818,6 @@
                 "class": "Summoning",
                 "weapons": [
                     {
-                        "name": "Gastric Belcher Staff",
-                        "icon": "/classamity/images/Gastric_Belcher_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Gastric_Belcher_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Plantation Staff",
                         "icon": "/classamity/images/Plantation_Staff.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Plantation_Staff",
@@ -6908,6 +6882,14 @@
                         "name": "Morning Star",
                         "icon": "/classamity/images/Morning_Star.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Morning_Star"
+                    },
+                    {
+                        "name": "Desert Tiger Staff",
+                        "link": "https://terraria.fandom.com/wiki/Desert_Tiger_Staff",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e7/Desert_Tiger_Staff.png",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "armor": [
@@ -11071,6 +11053,14 @@
                         "name": "Kaleidoscope",
                         "icon": "/classamity/images/Kaleidoscope.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Kaleidoscope"
+                    },
+                    {
+                        "name": "Dragonblood Disgorger",
+                        "link": "https://calamitymod.wiki.gg/wiki/Dragonblood_Disgorger",
+                        "icon": "https://calamitymod.wiki.gg/images/8/8b/Dragonblood_Disgorger.png",
+                        "attributes": [
+                            "piercing"
+                        ]
                     }
                 ],
                 "armor": [
@@ -11950,6 +11940,14 @@
                         "name": "Kaleidoscope",
                         "icon": "/classamity/images/Kaleidoscope.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Kaleidoscope"
+                    },
+                    {
+                        "name": "Gamma Heart",
+                        "link": "https://calamitymod.wiki.gg/wiki/Gamma_Heart",
+                        "icon": "https://calamitymod.wiki.gg/images/8/82/Gamma_Heart.png?20220316080652",
+                        "attributes": [
+                            "homing"
+                        ]
                     }
                 ],
                 "armor": [
@@ -12785,6 +12783,22 @@
                         "name": "Kaleidoscope",
                         "icon": "/classamity/images/Kaleidoscope.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Kaleidoscope"
+                    },
+                    {
+                        "name": "Pole Warper",
+                        "link": "https://calamitymod.wiki.gg/wiki/Pole_Warper",
+                        "icon": "https://calamitymod.wiki.gg/images/f/f1/Pole_Warper.png?20220730032533",
+                        "attributes": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "King of Constellations, Tenry\u016b",
+                        "link": "https://calamitymod.wiki.gg/wiki/King_of_Constellations,_Tenry\u016b",
+                        "icon": "https://calamitymod.wiki.gg/images/a/a2/King_of_Constellations%2C_Tenry%C5%AB.png?20230801111233",
+                        "attributes": [
+                            "piercing"
+                        ]
                     }
                 ],
                 "armor": [
@@ -14521,6 +14535,14 @@
                         "link": "https://calamitymod.wiki.gg/wiki/Universe_Splitter",
                         "attributes": [
                             "piercing"
+                        ]
+                    },
+                    {
+                        "name": "Perdition",
+                        "link": "https://calamitymod.wiki.gg/wiki/Perdition",
+                        "icon": "https://calamitymod.wiki.gg/images/3/3e/Perdition.png?20220316075419",
+                        "attributes": [
+                            "homing"
                         ]
                     }
                 ],

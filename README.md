@@ -21,7 +21,7 @@ This is the main database of the website. Contains the game stages in them the c
 </details>
 
 <details>
-  <summary>Editing <b>combos.json<b></summary>
+  <summary>Editing <b>combos.json</b></summary>
   This file contains items that really go well together. When an item is hovered their companion items light up.
 
 - Fork the repository

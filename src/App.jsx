@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import data from './data.json';
+import combos from './combos.json';
 import ImageCarousel from './ImageCarousel';
 import GradientBackground from './GradientBackground';
 
@@ -14,11 +13,16 @@ import { FiInfo } from "react-icons/fi";
 
 import Alert from './Alert';
 
+function getGroupByItemName(itemName) {
+  return combos.combos.find(combo => combo.items.includes(itemName));
+}
+
 function App() {
   console.log("App component rendering...");
   const [stages, setStages] = useState(null);
   const [selectedStage,setSelectedStage] = useState(0);
   const [selectedClass,setSelectedClass] = useState(0);
+  const [selectedCombo, setSelectedCombo] = useState(null);
 
   useEffect(() => {
     setStages(data);
@@ -62,10 +66,13 @@ function App() {
         <div className='current-stage'>
           
           <div className='build grid-container'>
-            <ImageCarousel images={stages[selectedStage].classes[selectedClass].armor}  noItem={"no-armor.png"}/>
+            <ImageCarousel images={stages[selectedStage].classes[selectedClass].armor} noItem={"no-armor.png"}/>
             <div className='container second-child' style={{background: stages[selectedStage].color}} data-title="Weapons">
               {stages[selectedStage].classes[selectedClass].weapons.map((weapon,index)=>(
-                <div className='item' style={{animationDelay: `${index/10}s`}} key={weapon.name} data-name={weapon.name}>
+                
+                <div className={`item ${(selectedCombo && selectedCombo.items.includes(weapon.name)) && "highlighted"}`} style={{animationDelay: `${index/10}s`}} key={weapon.name} data-name={weapon.name}
+                  onPointerEnter={()=>setSelectedCombo(getGroupByItemName(weapon.name))}
+                  onPointerLeave={()=>setSelectedCombo(null)}>
                    <a href={weapon.link} target='_blank'><img src={weapon.icon}></img></a>
                    {weapon.attributes !== undefined && 
                     <div className='attributes'>
@@ -77,14 +84,17 @@ function App() {
             </div>
             <div className='container third-child'  style={{background: stages[selectedStage].color}} data-title="Accessories">
               {stages[selectedStage].classes[selectedClass].accessories.map((accessorie,index)=>(
-                <div className='item' style={{animationDelay: `${index/10}s`}} key={accessorie.name} data-name={accessorie.name}>
+                <div className={`item ${(selectedCombo && selectedCombo.items.includes(accessorie.name)) && "highlighted"}`} style={{animationDelay: `${index/10}s`}} key={accessorie.name} data-name={accessorie.name}
+                onPointerEnter={()=>setSelectedCombo(getGroupByItemName(accessorie.name))}
+                  onPointerLeave={()=>setSelectedCombo(null)}>
+  
                    <a href={accessorie.link} target='_blank'><img src={accessorie.icon} title={accessorie.name}></img></a>
                 </div>
               ))}
             </div>
             <div className='container fourth-child'  style={{background: stages[selectedStage].color}} data-title="Potions, Buffs & Ammo">
               {stages[selectedStage].classes[selectedClass].buffsPotionsAmmo.map((b,index)=>(
-                <div className='item' style={{animationDelay: `${index/10}s`}} key={b.name} data-name={b.name}>
+                <div className={`item ${(selectedCombo && selectedCombo.items.includes(b.name)) && "highlighted"}`} style={{animationDelay: `${index/10}s`}} key={b.name} data-name={b.name}>
                    <a href={b.link} target='_blank'><img src={b.icon} title={b.name}></img></a>
                 </div>
               ))}

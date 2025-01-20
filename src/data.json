@@ -926,6 +926,14 @@
                         "name": "Voltaic Jelly",
                         "icon": "/classamity/images/Voltaic_Jelly.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Voltaic_Jelly"
+                    },
+                    {
+                        "name": "Wulfrum Battery",
+                        "link": "https://calamitymod.wiki.gg/wiki/Wulfrum_Battery",
+                        "icon": "https://calamitymod.wiki.gg/images/7/74/Wulfrum_Battery.png?20220316075706",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "buffsPotionsAmmo": [
@@ -1491,6 +1499,14 @@
                         "name": "Voltaic Jelly",
                         "icon": "/classamity/images/Voltaic_Jelly.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Voltaic_Jelly"
+                    },
+                    {
+                        "name": "Wulfrum Battery",
+                        "link": "https://calamitymod.wiki.gg/wiki/Wulfrum_Battery",
+                        "icon": "https://calamitymod.wiki.gg/images/7/74/Wulfrum_Battery.png?20220316075706",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "buffsPotionsAmmo": [
@@ -2126,6 +2142,14 @@
                         "name": "Voltaic Jelly",
                         "icon": "/classamity/images/Voltaic_Jelly.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Voltaic_Jelly"
+                    },
+                    {
+                        "name": "Wulfrum Battery",
+                        "link": "https://calamitymod.wiki.gg/wiki/Wulfrum_Battery",
+                        "icon": "https://calamitymod.wiki.gg/images/7/74/Wulfrum_Battery.png?20220316075706",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "buffsPotionsAmmo": [
@@ -3582,11 +3606,6 @@
                         "link": "https://calamitymod.wiki.gg/wiki/Pygmy_Necklace"
                     },
                     {
-                        "name": "Spirit Glyph",
-                        "icon": "/classamity/images/Spirit_Glyph.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Spirit_Glyph"
-                    },
-                    {
                         "name": "Summoner Emblem",
                         "icon": "/classamity/images/Summoner_Emblem.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Summoner_Emblem"
@@ -4396,11 +4415,6 @@
                         "name": "Nuclear Fuel Rod",
                         "icon": "/classamity/images/Nuclear_Fuel_Rod.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Nuclear_Fuel_Rod"
-                    },
-                    {
-                        "name": "Spirit Glyph",
-                        "icon": "/classamity/images/Spirit_Glyph.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Spirit_Glyph"
                     },
                     {
                         "name": "Summoner Emblem",
@@ -5216,11 +5230,6 @@
                         "name": "Nuclear Fuel Rod",
                         "icon": "/classamity/images/Nuclear_Fuel_Rod.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Nuclear_Fuel_Rod"
-                    },
-                    {
-                        "name": "Spirit Glyph",
-                        "icon": "/classamity/images/Spirit_Glyph.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Spirit_Glyph"
                     },
                     {
                         "name": "Summoner Emblem",
@@ -6907,6 +6916,14 @@
                         "name": "Tiki armor",
                         "icon": "/classamity/images/Tiki_armor.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Tiki_armor"
+                    },
+                    {
+                        "name": "Spooky Armor",
+                        "link": "https://terraria.fandom.com/wiki/Spooky_armor",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c5/Spooky_armor_female.png",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "accessories": [
@@ -6934,6 +6951,30 @@
                         "name": "Starbuster Core",
                         "icon": "/classamity/images/Starbuster_Core.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Starbuster_Core"
+                    },
+                    {
+                        "name": "Spooky Wings",
+                        "link": "https://terraria.wiki.gg/wiki/Wings#Spooky_Wings",
+                        "icon": "https://terraria.wiki.gg/images/a/a8/Spooky_Wings.png",
+                        "attributes": [
+                            "flight"
+                        ]
+                    },
+                    {
+                        "name": "Statis' Blessing",
+                        "link": "https://calamitymod.wiki.gg/wiki/Statis%27_Blessing",
+                        "icon": "https://calamitymod.wiki.gg/images/c/cc/Statis%27_Blessing.png?20220316082144",
+                        "attributes": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Papyrus Scarab",
+                        "link": "https://terraria.fandom.com/wiki/Papyrus_Scarab",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a8/Papyrus_Scarab.png",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "buffsPotionsAmmo": [
@@ -7745,6 +7786,14 @@
                         "name": "Statis' Blessing",
                         "icon": "/classamity/images/Statis'_Blessing.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Statis%27_Blessing"
+                    },
+                    {
+                        "name": "Papyrus Scarab",
+                        "link": "https://terraria.fandom.com/wiki/Papyrus_Scarab",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a8/Papyrus_Scarab.png",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "buffsPotionsAmmo": [
@@ -8620,6 +8669,14 @@
                         "name": "Statis' Blessing",
                         "icon": "/classamity/images/Statis'_Blessing.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Statis%27_Blessing"
+                    },
+                    {
+                        "name": "Papyrus Scarab",
+                        "link": "https://terraria.fandom.com/wiki/Papyrus_Scarab",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a8/Papyrus_Scarab.png",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "buffsPotionsAmmo": [
@@ -10501,6 +10558,14 @@
                         "name": "Sand Shark Tooth Necklace",
                         "icon": "/classamity/images/24px-Sand_Shark_Tooth_Necklace.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Sand_Shark_Tooth_Necklace"
+                    },
+                    {
+                        "name": "Normality Relocator",
+                        "link": "https://calamitymod.wiki.gg/wiki/Normality_Relocator#",
+                        "icon": "https://calamitymod.wiki.gg/images/1/17/Normality_Relocator.png",
+                        "attributes": [
+                            ""
+                        ]
                     }
                 ],
                 "buffsPotionsAmmo": [

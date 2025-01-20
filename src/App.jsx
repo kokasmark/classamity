@@ -40,7 +40,7 @@ function App() {
     <>
       {stages && <div className='app'>
         <GradientBackground new_gradient={createLinearGradient(stages[selectedStage].color)}/>
-        <Alert content={"25 items changed!"} contributors={["FireFox029"]}/>
+        <Alert content={"13 items changed!"} contributors={["FireFox029","Wybie1acz"]}/>
         <div className='stage-select'>
           <input className='stage' type='range' min={0} max={stages.length-1} value={selectedStage} onChange={(e)=>setSelectedStage(e.target.value)}></input>
           <div className='stages-preview'>

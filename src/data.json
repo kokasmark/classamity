@@ -4353,26 +4353,12 @@
                         ]
                     },
                     {
-                        "name": "Igneous Exaltation",
-                        "icon": "/classamity/images/39px-Igneous_Exaltation.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Igneous_Exaltation",
-                        "attributes": [
-                            "piercing",
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Mounted Scanner",
                         "icon": "/classamity/images/Mounted_Scanner.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Mounted_Scanner",
                         "attributes": [
                             "piercing"
                         ]
-                    },
-                    {
-                        "name": "Sanguine Staff",
-                        "icon": "/classamity/images/Sanguine_Staff.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Sanguine_Staff"
                     },
                     {
                         "name": "Orthocera Shell",
@@ -4391,6 +4377,14 @@
                         "name": "Firecracker",
                         "icon": "/classamity/images/Firecracker.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Firecracker"
+                    },
+                    {
+                        "name": "Dormant Brimseeker",
+                        "link": "https://calamitymod.wiki.gg/wiki/Dormant_Brimseeker",
+                        "icon": "https://calamitymod.wiki.gg/images/0/03/Dormant_Brimseeker.png",
+                        "attributes": [
+                            "piercing"
+                        ]
                     }
                 ],
                 "armor": [
@@ -5156,15 +5150,6 @@
             {
                 "class": "Summoning",
                 "weapons": [
-                    {
-                        "name": "Daedalus Golem Staff",
-                        "icon": "/classamity/images/45px-Daedalus_Golem_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Daedalus_Golem_Staff",
-                        "attributes": [
-                            "piercing",
-                            "piercing"
-                        ]
-                    },
                     {
                         "name": "Deepsea Staff",
                         "icon": "/classamity/images/Deepsea_Staff.png",
@@ -5967,15 +5952,6 @@
             {
                 "class": "Summoning",
                 "weapons": [
-                    {
-                        "name": "Daedalus Golem Staff",
-                        "icon": "/classamity/images/45px-Daedalus_Golem_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Daedalus_Golem_Staff",
-                        "attributes": [
-                            "piercing",
-                            "piercing"
-                        ]
-                    },
                     {
                         "name": "Dormant Brimseeker",
                         "icon": "/classamity/images/Dormant_Brimseeker.png",
@@ -7711,11 +7687,6 @@
                         "link": "https://calamitymod.wiki.gg/wiki/Sand_Sharknado_Staff"
                     },
                     {
-                        "name": "Wither Blossoms Staff",
-                        "icon": "/classamity/images/42px-Wither_Blossoms_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Wither_Blossoms_Staff"
-                    },
-                    {
                         "name": "Xeno Staff",
                         "icon": "/classamity/images/Xeno_Staff.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Xeno_Staff"
@@ -8578,27 +8549,9 @@
                         ]
                     },
                     {
-                        "name": "Raven Staff",
-                        "icon": "/classamity/images/Raven_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Raven_Staff"
-                    },
-                    {
-                        "name": "Sand Sharknado Staff",
-                        "icon": "/classamity/images/Sand_Sharknado_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Sand_Sharknado_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Terraprisma",
                         "icon": "/classamity/images/Terraprisma.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Terraprisma"
-                    },
-                    {
-                        "name": "Xeno Staff",
-                        "icon": "/classamity/images/Xeno_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Xeno_Staff"
                     },
                     {
                         "name": "Cryogenic Staff",
@@ -8625,6 +8578,22 @@
                         "name": "Kaleidoscope",
                         "icon": "/classamity/images/Kaleidoscope.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Kaleidoscope"
+                    },
+                    {
+                        "name": "Wither Blossoms Staff",
+                        "link": "https://calamitymod.wiki.gg/wiki/Wither_Blossoms_Staff",
+                        "icon": "https://calamitymod.wiki.gg/images/7/7a/Wither_Blossoms_Staff.png",
+                        "attributes": [
+                            "homing"
+                        ]
+                    },
+                    {
+                        "name": "Infected Remote",
+                        "link": "https://calamitymod.wiki.gg/wiki/Infected_Remote",
+                        "icon": "https://calamitymod.wiki.gg/images/0/0c/Infected_Remote.png",
+                        "attributes": [
+                            "piercing"
+                        ]
                     }
                 ],
                 "armor": [
@@ -9417,14 +9386,6 @@
                 "class": "Summoning",
                 "weapons": [
                     {
-                        "name": "Fuel Cell Bundle",
-                        "icon": "/classamity/images/Fuel_Cell_Bundle.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Fuel_Cell_Bundle",
-                        "attributes": [
-                            "piercing"
-                        ]
-                    },
-                    {
                         "name": "Stardust Dragon Staff",
                         "icon": "/classamity/images/Stardust_Dragon_Staff.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Stardust_Dragon_Staff"
@@ -9433,14 +9394,6 @@
                         "name": "Terraprisma",
                         "icon": "/classamity/images/Terraprisma.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Terraprisma"
-                    },
-                    {
-                        "name": "Wither Blossoms Staff",
-                        "icon": "/classamity/images/Wither_Blossoms_Staff.png",
-                        "link": "https://calamitymod.wiki.gg/wiki/Wither_Blossoms_Staff",
-                        "attributes": [
-                            "piercing"
-                        ]
                     },
                     {
                         "name": "Cryogenic Staff",
@@ -9462,6 +9415,22 @@
                         "name": "Kaleidoscope",
                         "icon": "/classamity/images/Kaleidoscope.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Kaleidoscope"
+                    },
+                    {
+                        "name": "Stardust Cell Staff",
+                        "link": "https://terraria.fandom.com/wiki/Stardust_Cell_Staff",
+                        "icon": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/2f/Stardust_Cell_Staff.png",
+                        "attributes": [
+                            "homing"
+                        ]
+                    },
+                    {
+                        "name": "Starspawn Helix Staff",
+                        "link": "https://calamitymod.wiki.gg/wiki/Starspawn_Helix_Staff",
+                        "icon": "https://calamitymod.wiki.gg/images/6/60/Starspawn_Helix_Staff.png?20220316084331",
+                        "attributes": [
+                            "none"
+                        ]
                     }
                 ],
                 "armor": [
@@ -11629,6 +11598,14 @@
                         "name": "Terror Blade",
                         "icon": "/classamity/images/66px-Terror_Blade.png",
                         "link": "https://calamitymod.wiki.gg/wiki/Terror_Blade",
+                        "attributes": [
+                            "piercing"
+                        ]
+                    },
+                    {
+                        "name": "Banshee Hook",
+                        "link": "https://calamitymod.wiki.gg/wiki/Banshee_Hook",
+                        "icon": "https://calamitymod.wiki.gg/images/1/1e/Banshee_Hook.png",
                         "attributes": [
                             "piercing"
                         ]

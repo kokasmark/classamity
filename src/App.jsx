@@ -40,7 +40,7 @@ function App() {
     <>
       {stages && <div className='app'>
         <GradientBackground new_gradient={createLinearGradient(stages[selectedStage].color)}/>
-        <Alert content={"13 items changed!"} contributors={["FireFox029","Wybie1acz"]}/>
+        <Alert content={"16 items changed!"} contributors={["FireFox029","FlowState0"]}/>
         <div className='stage-select'>
           <input className='stage' type='range' min={0} max={stages.length-1} value={selectedStage} onChange={(e)=>setSelectedStage(e.target.value)}></input>
           <div className='stages-preview'>
@@ -101,6 +101,7 @@ function App() {
             </div>
           </div>
         </div>
+        
         <footer>
           <div>
             <GrGithub style={{fontSize: 30}}/><a href='https://github.com/kokasmark/classamity' style={{marginLeft: 5}}>Github</a>

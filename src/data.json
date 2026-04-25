@@ -10330,11 +10330,6 @@
                 "class": "Rogue",
                 "weapons": [
                     {
-                        "name": "Alpha Virus",
-                        "icon": "/classamity/images/Alpha_Virus.webp",
-                        "link": "https://calamitymod.wiki.gg/wiki/Alpha_Virus"
-                    },
-                    {
                         "name": "Elemental Disk",
                         "icon": "/classamity/images/Elemental_Disk.webp",
                         "link": "https://calamitymod.wiki.gg/wiki/Elemental_Disk"
